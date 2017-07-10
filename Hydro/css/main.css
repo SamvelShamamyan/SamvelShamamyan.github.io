@@ -46,12 +46,13 @@ position: relative;
 	display: block;
 	cursor: pointer;
     bottom: 0;
-    bottom: 29px;
+    bottom: 25px;
     width:26%;
     margin-left:500px;
     width:345px;
     height:42px;
-    
     }
 
-   
+.blok:hover{
+	box-shadow: 1px 5px 15px 0 #fff;
+   }
