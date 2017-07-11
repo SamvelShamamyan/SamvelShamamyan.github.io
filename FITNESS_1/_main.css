@@ -1,0 +1,212 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+
+
+.sider_container img {
+	max-width: 100%;
+}
+.sider_container {
+	position: relative;
+}
+.next_button, .prev_button {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10em;
+	color: #fff;
+	cursor: pointer;
+	font-size: 46px;
+	padding: 72px 19px;
+	position: absolute;
+	top: 1%;
+
+	z-index: 10;
+}
+.next_button {
+	right: 20px;
+	margin-right: -20px;
+}
+.prev_button {
+	left: 20px;
+	margin-left: -20px;
+}
+.next_button:hover{
+	background-color: rgba(255, 255, 255, 0.1)
+}
+.prev_button:hover{
+	background-color: rgba(255, 255, 255, 0.1)
+}
+
+.sec_2{
+	padding-bottom:44px;
+	
+}
+
+.sec_2 h1{
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 40px;
+	letter-spacing:.2em;
+	color: #ffcc01;
+	margin-left: 120px;
+	border-bottom:4px solid #f6834b;
+	display:inline-block;
+
+}
+
+.cards{
+	text-align: center;
+	margin-top:44px;
+}
+
+.card{
+	display: inline-block;
+	width:240px;
+	margin-right: -30px;
+	font-family: "RobotoRegular", sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	letter-spacing:.2em;
+}
+
+.wrap_tc{
+	padding-bottom: 12px;
+}
+
+.sec_3{
+	background-color: #00709e;
+	color:#fff;
+	
+}
+
+.title{
+	text-align: center;
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 20px;
+}
+
+
+.min_title p{
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 24px;
+	letter-spacing:.2em;
+	border: 1px solid #fff;
+	padding: 1px;
+	width: 160px;
+	margin:0 auto;
+}
+
+.tr_desc{
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	letter-spacing:.2em;
+	margin-top:40%;
+	}
+
+	.tr_desc_work{
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	letter-spacing:.2em;
+	margin-top:50%;
+	}
+
+span{
+	color:#ff5501;
+}
+
+
+
+
+.img_tr{
+	overflow: hidden;
+	box-shadow: 0 0 0 8px #ff5501;
+	border-radius: 10em;
+	width: 230px;
+	height: 230px;
+	margin:20% auto;
+}
+
+
+.img_tr img{
+	margin-left:-185px;
+}
+
+.img_wrap{
+	background-image:url(img/fitness/star.png);
+	width: 208px;
+	height:32px;
+	margin-left:120px;
+	}
+
+
+
+
+.line{
+	display: block;
+	width: 100%;
+	height: 45px;
+	background-color: #818181;
+	margin-top: 45px;
+	border: 6px solid #fff;
+	
+}
+
+.line{
+	border-left:none;
+	border-right: none;
+}
+
+
+/*SEC_4 VIDEO_FON*/
+
+.mbYTP_wrapper::before {
+	display: block;
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: rgba(255,85,1,0.7);
+	z-index: 10;
+}
+
+.bg_container {
+	z-index: 20;
+	color: #fff;
+	font-size:70px;
+	text-transform: uppercase;
+	text-align: center;
+	padding:100px 0;
+}
+
+.sec_4 {
+	position: relative;
+	max-height: 400px;
+	left:0;
+	top:0;
+}
+
+
+
+
