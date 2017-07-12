@@ -82,7 +82,7 @@ body textarea:required:valid {
 .card{
 	display: inline-block;
 	width:240px;
-	margin-right: -30px;
+	margin: 10px -30px 0 0;
 	font-family: "RobotoRegular", sans-serif;
 	font-weight: bold;
 	font-size: 12px;

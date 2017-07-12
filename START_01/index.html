@@ -21,19 +21,24 @@
 	<script>!function(){function e(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function t(e){return window.localStorage&&localStorage.font_css_cache&&localStorage.font_css_cache_file===e}function n(){if(window.localStorage&&window.XMLHttpRequest)if(t(o))a(localStorage.font_css_cache);else{var n=new XMLHttpRequest;n.open("GET",o,!0),e(n,"load",function(){4===n.readyState&&(a(n.responseText),localStorage.font_css_cache=n.responseText,localStorage.font_css_cache_file=o)}),n.send()}else{var c=document.createElement("link");c.href=o,c.rel="stylesheet",c.type="text/css",document.getElementsByTagName("head")[0].appendChild(c),document.cookie="font_css_cache"}}function a(e){var t=document.createElement("style");t.innerHTML=e,document.getElementsByTagName("head")[0].appendChild(t)}var o="_fonts.css";window.localStorage&&localStorage.font_css_cache||document.cookie.indexOf("font_css_cache")>-1?n():e(window,"load",n)}();</script>
 	
 	<!-- Load CSS Compilled without JS -->
-	<noscript><link rel="stylesheet" href="compiled.min.css"></noscript>
-	<noscript><link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" /></noscript>
-	<noscript><link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" /></noscript>
-	<noscript><link rel="stylesheet" href="libs/animate/animate.css" /></noscript>
-
+	<link rel="stylesheet" href="compiled.min.css"/>
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="libs/animate/animate.css" />
+    <!--ES-NOR_AVELACRACSA-->
+    <link rel="stylesheet" href="_header.css" />
+    <!--<link rel="stylesheet" href="css/fonts.css" />-->
+	<link rel="stylesheet" href="_main.css" />
+	<link rel="stylesheet" href="_media.css" />
+    <!--ES-NOR_AVELACRACSA-->
 	<!--<noscript><link rel="stylesheet" href="libs/animate.css" /></noscript>-->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
-	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon"/>
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png"/>
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png"/>
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png"/>
 
 </head>
 
@@ -234,7 +239,7 @@
 <div class="bg_container">
 	YOUR TEXT
 </div>
-<div class="line"></div>
+<div class="line "></div>
 </section>
 
 
@@ -249,7 +254,7 @@
 	<![endif]-->
 
 	<!-- Load CSS -->
-	<script>
+	<!--<script>
 		function loadCSS(hf) {
 			var ms=document.createElement("link");ms.rel="stylesheet";
 			ms.href=hf;document.getElementsByTagName("head")[0].appendChild(ms);
@@ -258,7 +263,7 @@
 		loadCSS("_header.css");              //Header Styles (compress & paste to header after release)
 		loadCSS("_main.css");                //User Styles: Main
 		loadCSS("_media.css");               //User Styles: Media
-	</script> 
+	</script>  -->
 
 	<!-- Load CSS compiled without Bootstrap & Header styles (after release) -->
 	<script>var ms=document.createElement("link");ms.rel="stylesheet";
